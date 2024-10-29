@@ -1,0 +1,14 @@
+table{
+    border: 1px solid black;
+    padding: 3px;
+}
+
+td{
+    margin-right: 3px;
+}
+
+img {
+    height: 60px;
+    width: auto;
+    border-radius: 50%;
+}

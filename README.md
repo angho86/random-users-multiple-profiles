@@ -1,1 +1,1 @@
-Random user profile with random quote and map
+Random users profiles
