@@ -21,8 +21,6 @@ async function getAllApis(){
         long: personObj.location.coordinates.longitude,
     }))
 
-    console.log(parsedPeopleArray);
-
     return  parsedPeopleArray;
 
 }
