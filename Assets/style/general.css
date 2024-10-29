@@ -7,6 +7,7 @@
 body {
     background-color: #F2F0EB;
     font-family: serif;
+    position: relative;
 }
 
 .container {
@@ -18,11 +19,20 @@ body {
 }
 
 .profile {
-    display: flex;
+    background-color: #F2F0EB;
+    box-shadow: 0 0 10px #BFBDB8;
+    width: 600px;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .photo {
@@ -57,4 +67,15 @@ h3 {
     width: 500px !important;
     margin-top: 20px;
     border: 2px solid #BFBDB8;
+}
+
+.closeBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgb(209, 34, 34);
+    padding: 0.5rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
 }

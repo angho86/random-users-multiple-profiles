@@ -1,4 +1,7 @@
 function generateHtml(obj){
+    const profileWindow = document.querySelector(".profile");
+
+    profileWindow.style.display = "flex";
 
     const infoHtml = document.querySelector(".infoBox");
     const profilePhoto =  document.querySelector(".photo");

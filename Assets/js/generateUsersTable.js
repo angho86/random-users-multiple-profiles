@@ -1,5 +1,6 @@
 function generateTable(obj){
     const table = document.querySelector(".profiles");
+    
 
     const rows = Math.ceil(obj.length / 30);
 

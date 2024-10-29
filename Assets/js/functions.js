@@ -10,7 +10,15 @@ for(let i =0; i < obj.length; i++){
         male +=1;
     }
 }
-console.log("count:" + count);
-console.log("Females:" + female);
-console.log("Males:" + male);
+return {count, female, male}
+}
+
+function closeModal() {
+
+    const profileWindow = document.querySelector(".profile");
+
+    profileWindow.style.display = "none";
+
+    console.log("veikiu");
+
 }
