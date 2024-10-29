@@ -12,6 +12,7 @@ function generateTable(obj){
             if(Index >= obj.length) break;
 
             const img = document.createElement('img');
+            img.classList.add('photoMini');
             img.src = `${obj[Index].picture}`;
 
             const profileBtn = document.createElement('button');

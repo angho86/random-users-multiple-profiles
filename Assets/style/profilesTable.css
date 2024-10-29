@@ -6,10 +6,11 @@ td{
     margin-right: 3px;
 }
 
-img {
+.photoMini {
     height: 60px;
     width: auto;
     border-radius: 50%;
+    box-shadow: 0 0 10px #a5a4a0;
 }
 
 .profileBtn {

@@ -18,7 +18,7 @@ function generateHtml(obj){
                 <div>City: ${obj.city}</div>
                 <div>Country: ${obj.country}</div>
                 <div>Mobile Nr.: ${obj.phone}</div>
-                <div>Registration: ${year}</div>
+                <div>Birth date: ${year}</div>
                 </div>
                 <div id="map"></div>`;
 
