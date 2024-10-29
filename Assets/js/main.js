@@ -6,13 +6,11 @@ async function main(){
 
     generateTable(personsObj);
 
-    const allProfiles = document.querySelector(".all");
-    const female = document.querySelector(".female");
-    const male = document.querySelector(".male");
+   
 
-    const stats = stats(personsObj);
+    stats(personsObj);
 
-    
+
 
     allProfiles.innerHTML = stats.count;
     female.innerHTML  = stats.female;
