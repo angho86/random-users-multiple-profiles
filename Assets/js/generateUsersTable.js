@@ -14,10 +14,18 @@ function generateTable(obj){
             const img = document.createElement('img');
             img.src = `${obj[Index].picture}`;
 
-            trElement.appendChild(img);
+            const profileBtn = document.createElement('button');
+            profileBtn.classList.add('profileBtn');
+            profileBtn.onclick = () => generateHtml(obj[Index]);
+
+            profileBtn.appendChild(img);
+
+            trElement.appendChild(profileBtn);
         }
 
         table.appendChild(trElement);
     }
+
+
 
 }

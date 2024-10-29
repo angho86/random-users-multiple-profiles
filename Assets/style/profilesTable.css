@@ -1,5 +1,4 @@
 table{
-    border: 1px solid black;
     padding: 3px;
 }
 
@@ -11,4 +10,9 @@ img {
     height: 60px;
     width: auto;
     border-radius: 50%;
+}
+
+.profileBtn {
+    border: none;
+    cursor: pointer;
 }
