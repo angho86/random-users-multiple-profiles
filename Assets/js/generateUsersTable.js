@@ -1,7 +1,7 @@
 function generateTable(obj){
     const table = document.querySelector(".profiles");
     
-
+    table.innerHTML = "";
     const rows = Math.ceil(obj.length / 30);
 
     for(let i =0; i < rows; i++){

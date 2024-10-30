@@ -4,9 +4,12 @@ async function main(){
 
     const personsObj = await getAllApis();
 
-    generateTable(personsObj);
+    const filteredPersons = filter(personsObj);
+    // generateTable(filteredPersons);
 
     stats(personsObj);
+
+    
 }
 
 main();
