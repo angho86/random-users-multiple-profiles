@@ -7,7 +7,7 @@ function generateTable(obj){
     for(let i =0; i < rows; i++){
         const trElement = document.createElement('tr');
 
-        for(let j = 0; j <30; j++){
+        for(let j = 0; j < 30; j++){
             const Index = i * 10 +j;
 
             if(Index >= obj.length) break;
@@ -27,7 +27,5 @@ function generateTable(obj){
 
         table.appendChild(trElement);
     }
-
-
 
 }
